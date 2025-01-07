@@ -20,7 +20,7 @@ namespace NullableJsonExample
             // Create an instance of Person with some nullable values
             var person = new Person
             {
-                Name = "Jack",
+                //Name = "Jack",
                 Age = 30,
                 Email = null, // Explicitly null email
             };
