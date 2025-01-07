@@ -10,4 +10,4 @@ For reference  see the following
 This project contains a Person class with properties 'Name', 'Age' and 'Email'. The simple program class serializes and deserializes an instance of this class.
 The 'Name' property is non-nullable - the value cannot be null. But in .net 8 and .net 9, this is not enforced strictly and so even if a value is not set for 'Name', it will continue to serialize and deserialize as expected. This can be seen if you run the project as it is.
 
-Starting with .net 9, we can enforce this check by using the 'RespectNullableAnnotations' options. To test this, uncomment out line 38 and run the project. An exception is seen in console. 
+Starting with .net 9, we can enforce this check by using the 'RespectNullableAnnotations' options. To test this, uncomment out [line 38](https://github.com/soujay/TestSerializer/blob/master/TestSerializer/Program.cs#L38) and run the project. An exception is seen in console. 
